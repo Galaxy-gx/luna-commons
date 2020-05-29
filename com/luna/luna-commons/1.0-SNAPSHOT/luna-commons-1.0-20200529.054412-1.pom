@@ -12,7 +12,7 @@
     </parent>
 
     <groupId>com.luna</groupId>
-    <artifactId>luna-common</artifactId>
+    <artifactId>luna-commons</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -21,21 +21,21 @@
         <github.global.server>github</github.global.server>
     </properties>
 
-<!--    <dependencyManagement>-->
-<!--        <dependencies>-->
-<!--            &lt;!&ndash;-->
-<!--                使用场景：当父依赖是公司内部依赖时（PS：不是spring-boot-starter-parent），需要这样做。-->
-<!--             &ndash;&gt;-->
-<!--            &lt;!&ndash; Spring Boot 依赖 &ndash;&gt;-->
-<!--            <dependency>-->
-<!--                <groupId>org.springframework.boot</groupId>-->
-<!--                <artifactId>spring-boot-dependencies</artifactId>-->
-<!--                <version>2.2.2.RELEASE</version>-->
-<!--                <type>pom</type>-->
-<!--                <scope>import</scope>-->
-<!--            </dependency>-->
-<!--        </dependencies>-->
-<!--    </dependencyManagement>-->
+    <!--    <dependencyManagement>-->
+    <!--        <dependencies>-->
+    <!--            &lt;!&ndash;-->
+    <!--                使用场景：当父依赖是公司内部依赖时（PS：不是spring-boot-starter-parent），需要这样做。-->
+    <!--             &ndash;&gt;-->
+    <!--            &lt;!&ndash; Spring Boot 依赖 &ndash;&gt;-->
+    <!--            <dependency>-->
+    <!--                <groupId>org.springframework.boot</groupId>-->
+    <!--                <artifactId>spring-boot-dependencies</artifactId>-->
+    <!--                <version>2.2.2.RELEASE</version>-->
+    <!--                <type>pom</type>-->
+    <!--                <scope>import</scope>-->
+    <!--            </dependency>-->
+    <!--        </dependencies>-->
+    <!--    </dependencyManagement>-->
 
 
     <dependencies>
@@ -59,6 +59,14 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-text -->
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -134,12 +142,6 @@
             <version>8.0.19</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>2.1.1</version>
-        </dependency>
-
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
@@ -175,6 +177,7 @@
             </exclusions>
         </dependency>
 
+        <!--   腾讯Api-->
         <dependency>
             <groupId>com.tencentcloudapi</groupId>
             <artifactId>tencentcloud-sdk-java</artifactId>
@@ -192,6 +195,41 @@
             <groupId>com.alipay.sdk</groupId>
             <artifactId>alipay-sdk-java</artifactId>
             <version>3.4.49.ALL</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>javacpp</artifactId>
+            <version>1.5.3</version>
+        </dependency>
+
+        <!-- javacv -->
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>javacv</artifactId>
+            <version>1.5.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>javacv-platform</artifactId>
+            <version>1.5.3</version>
+        </dependency>
+
+        <!-- opencv -->
+        <!-- https://mvnrepository.com/artifact/org.bytedeco/opencv -->
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>opencv</artifactId>
+            <version>4.3.0-1.5.3</version>
+        </dependency>
+
+        <!-- ffmpeg -->
+        <!-- https://mvnrepository.com/artifact/org.bytedeco/ffmpeg -->
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>ffmpeg</artifactId>
+            <version>4.2.2-1.5.3</version>
         </dependency>
     </dependencies>
 
@@ -233,12 +271,12 @@
                     <noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
                     <outputDirectory>${project.build.directory}/mvn-repo
                     </outputDirectory> <!-- matches distribution management repository url above -->
-                    <branch>refs/heads/mvn-repo-luna-common
+                    <branch>refs/heads/mvn-repo-luna-commons
                     </branch>                       <!-- remote branch name -->
                     <includes>
                         <include>**/*</include>
                     </includes>
-                    <repositoryName>luna-common</repositoryName>      <!-- github repo name -->
+                    <repositoryName>luna-commons</repositoryName>      <!-- github repo name -->
                     <repositoryOwner>czy1024</repositoryOwner>    <!-- github username  -->
                 </configuration>
                 <executions>
