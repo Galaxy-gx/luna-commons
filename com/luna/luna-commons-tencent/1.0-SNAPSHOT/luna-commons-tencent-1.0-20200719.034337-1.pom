@@ -13,7 +13,7 @@
 
     <repositories>
         <repository>
-            <id>luna-commons-mvn-repo</id>
+            <id>luna-commons-mvn-repo-tencent</id>
             <url>https://raw.github.com/czy1024/luna-commons/mvn-repo-luna-commons-tencent/</url>
             <snapshots>
                 <enabled>true</enabled>
@@ -100,5 +100,16 @@
                 </executions>
             </plugin>
         </plugins>
+
+        <!-- 过滤配置文件 -->
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <excludes>
+                    <exclude>**/*.properties</exclude>
+                </excludes>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
     </build>
 </project>
