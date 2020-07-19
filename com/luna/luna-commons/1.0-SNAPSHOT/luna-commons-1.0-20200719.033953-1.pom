@@ -51,7 +51,12 @@
                 <artifactId>mysql-connector-java</artifactId>
                 <version>8.0.19</version>
             </dependency>
-
+            <!-- mybatis整合spring -->
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>2.1.1</version>
+            </dependency>
             <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-text -->
             <dependency>
                 <groupId>org.apache.commons</groupId>
@@ -111,11 +116,6 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>1.2.72</version>
-            </dependency>
-            <dependency>
-                <groupId>org.mybatis.spring.boot</groupId>
-                <artifactId>mybatis-spring-boot-starter</artifactId>
-                <version>2.1.1</version>
             </dependency>
             <dependency>
                 <groupId>junit</groupId>
@@ -207,6 +207,17 @@
                 </executions>
             </plugin>
         </plugins>
+
+        <!-- 过滤配置文件 -->
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <excludes>
+                    <exclude>**/*.properties</exclude>
+                </excludes>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
     </build>
 
 </project>
