@@ -29,7 +29,12 @@
             <artifactId>jersey-client</artifactId>
             <version>1.19.1</version>
         </dependency>
-
+        <!--    fastDFS 文件服务-->
+        <dependency>
+            <groupId>net.oschina.zcx7878</groupId>
+            <artifactId>fastdfs-client-java</artifactId>
+            <version>1.27.0.0</version>
+        </dependency>
         <dependency>
             <groupId>com.luna</groupId>
             <artifactId>luna-commons-common</artifactId>
@@ -94,5 +99,16 @@
                 </executions>
             </plugin>
         </plugins>
+
+        <!-- 过滤配置文件 -->
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <excludes>
+                    <exclude>**/*.properties</exclude>
+                </excludes>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
     </build>
 </project>
