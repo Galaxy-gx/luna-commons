@@ -29,11 +29,25 @@
             <artifactId>jersey-client</artifactId>
             <version>1.19.1</version>
         </dependency>
-        <!--    fastDFS 文件服务-->
+        <!--    fastDfs 文件服务-->
         <dependency>
             <groupId>net.oschina.zcx7878</groupId>
             <artifactId>fastdfs-client-java</artifactId>
             <version>1.27.0.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+        <!--    excel poi文件服务-->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.1.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/apache-xerces/xercesImpl -->
+        <dependency>
+            <groupId>apache-xerces</groupId>
+            <artifactId>xercesImpl</artifactId>
+            <version>2.9.1</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.luna</groupId>
