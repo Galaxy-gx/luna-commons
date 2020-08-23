@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.luna</groupId>
-  <artifactId>luna-commons</artifactId>
+  <artifactId>luna-commons-db</artifactId>
   <versioning>
     <versions>
       <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20200823044328</lastUpdated>
+    <lastUpdated>20200823044759</lastUpdated>
   </versioning>
 </metadata>
