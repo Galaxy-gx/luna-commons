@@ -13,6 +13,8 @@
         <module>luna-commons-message</module>
         <module>luna-commons-api</module>
         <module>luna-commons-media</module>
+        <module>luna-commons-template</module>
+        <module>luna-commons-db</module>
     </modules>
 
     <parent>
@@ -45,18 +47,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <!--Mysql驱动包-->
-            <dependency>
-                <groupId>mysql</groupId>
-                <artifactId>mysql-connector-java</artifactId>
-                <version>8.0.19</version>
-            </dependency>
-            <!-- mybatis整合spring -->
-            <dependency>
-                <groupId>org.mybatis.spring.boot</groupId>
-                <artifactId>mybatis-spring-boot-starter</artifactId>
-                <version>2.1.1</version>
-            </dependency>
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
