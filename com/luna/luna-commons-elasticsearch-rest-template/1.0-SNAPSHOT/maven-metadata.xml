@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>com.luna</groupId>
-  <artifactId>luna-commons-redis</artifactId>
+  <artifactId>luna-commons-elasticsearch-rest-template</artifactId>
   <version>1.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20200827.140457</timestamp>
+      <timestamp>20200827.140852</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20200827140457</lastUpdated>
+    <lastUpdated>20200827140852</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20200827.140457-1</value>
-        <updated>20200827140457</updated>
+        <value>1.0-20200827.140852-1</value>
+        <updated>20200827140852</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20200827.140457-1</value>
-        <updated>20200827140457</updated>
+        <value>1.0-20200827.140852-1</value>
+        <updated>20200827140852</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
