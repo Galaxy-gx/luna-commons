@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.luna</groupId>
+  <artifactId>luna-commons-db</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20200827.140419</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20200827140419</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0-20200827.140419-1</value>
+        <updated>20200827140419</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
