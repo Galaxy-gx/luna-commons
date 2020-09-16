@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.luna</groupId>
-  <artifactId>luna-commons-elasticsearch-rest-template</artifactId>
+  <artifactId>luna-commons-mongodb</artifactId>
   <versioning>
     <versions>
       <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20200916055843</lastUpdated>
+    <lastUpdated>20200916055929</lastUpdated>
   </versioning>
 </metadata>
