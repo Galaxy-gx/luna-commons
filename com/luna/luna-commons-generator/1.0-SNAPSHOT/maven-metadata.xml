@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>com.luna</groupId>
-  <artifactId>luna-commons</artifactId>
+  <artifactId>luna-commons-generator</artifactId>
   <version>1.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20200919.055843</timestamp>
+      <timestamp>20200919.061057</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20200919055843</lastUpdated>
+    <lastUpdated>20200919061057</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20200919.055843-1</value>
-        <updated>20200919055843</updated>
+        <value>1.0-20200919.061057-1</value>
+        <updated>20200919061057</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
