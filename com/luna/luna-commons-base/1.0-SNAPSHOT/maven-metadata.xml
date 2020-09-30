@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>com.luna</groupId>
-  <artifactId>luna-commons-shiro</artifactId>
+  <artifactId>luna-commons-base</artifactId>
   <version>1.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20200930.124621</timestamp>
+      <timestamp>20200930.124708</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20200930124621</lastUpdated>
+    <lastUpdated>20200930124708</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20200930.124621-1</value>
-        <updated>20200930124621</updated>
+        <value>1.0-20200930.124708-1</value>
+        <updated>20200930124708</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20200930.124621-1</value>
-        <updated>20200930124621</updated>
+        <value>1.0-20200930.124708-1</value>
+        <updated>20200930124708</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
